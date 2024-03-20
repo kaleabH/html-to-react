@@ -2,7 +2,7 @@ import React from 'react'
 import Timeline from './Timeline'
 const  ActivitiesDrawer = () =>
 {
-return
+return(
     <div
         id="kt_activities"
         className="bg-body"
@@ -69,5 +69,6 @@ return
           {/* <!--end::Footer--> */}
         </div>
       </div>
+      )
       }
 export default ActivitiesDrawer;
