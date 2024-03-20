@@ -1,10 +1,9 @@
 import React from 'react'
-
-function ActivitiesDrawer() {
-  return (
-    <>
-      {/* <!--begin::Activities drawer--> */}
-      <div
+import Timeline from './Timeline'
+const  ActivitiesDrawer = () =>
+{
+return
+    <div
         id="kt_activities"
         className="bg-body"
         data-kt-drawer="true"
@@ -46,9 +45,9 @@ function ActivitiesDrawer() {
               data-kt-scroll-dependencies="#kt_activities_header, #kt_activities_footer"
               data-kt-scroll-offset="5px"
             >
-              <Timeline />
-            </div>
+              <Timeline/>
             {/* <!--end::Content--> */}
+            </div>
           </div>
           {/* <!--end::Body--> */}
           {/* <!--begin::Footer--> */}
@@ -70,9 +69,5 @@ function ActivitiesDrawer() {
           {/* <!--end::Footer--> */}
         </div>
       </div>
-      {/* <!--end::Activities drawer--> */}
-    </>
-  )
-}
-
-export default ActivitiesDrawer
+      }
+export default ActivitiesDrawer;
